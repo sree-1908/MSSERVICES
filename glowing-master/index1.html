@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="initial-scale=1, minimum-scale=1">
+    
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>MS SERVICES</title>
+
+      <!-- stylesheet -->
+      <link rel="stylesheet" href="css1/main.css">
+
+      <!-- google fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+        <!-- AnimeJS -->
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+      <!-- icons -->
+      <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+      <!-- gsap -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+      <!-- JQuery -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+</head>
+<body>
+      <div class="wrapper">
+            <div class="container">
+
+                  <div class="loading-screen"></div>
+                 
+                  <div class="loader">
+                       
+                        <div class="ringOne ring">
+                             
+                              <img src="Images1/ring.png" alt="">
+                        </div>
+                        
+                        <div class="ringTwo ring">
+                              <h3 style="color: white;">Loading..</h3>
+                              <img src="Images1/ring.png" alt="">
+                        </div>
+                       
+                  </div>
+      
+            </div>
+      
+            <div class="logo">
+                 <a href="index1.html">M.S SERVICES<span> </span></a> 
+            </div>
+      
+            
+      
+            <div class="header">
+                  
+                  <h1 class="ml7" id="title">            
+                        <span class="text-wrapper">
+                              <span class="letters">WELCOME TO </br>
+                                    M.S SERVICES Your one-stop solution for quality, reliability, and unmatched service</span>
+                              
+                        </span>
+                  </h1>
+                                  
+                                  
+                  <p id="tagline" style="font-style: italic;" class="p1">Our premium accessories are built to enhance your TV, Washing Machine,
+                  </br> Refrigerator performance.  
+                  With high-quality materials,</br> sleek design, and unmatched durability, </br>  
+                  they ensure smooth operation and lasting reliability.  
+                  </br> Upgrade your appliances effortlessly and </br> enjoy superior convenience.</br>  
+                  <br> Because quality accessories </br> make life easier!</br> </p>
+                  
+                  
+                
+                  
+            </div>
+            <div>
+                  <div class="buttons">
+                        <button id="one"><a href="details.html">DETAILS</a></button>
+                        <button id="two"><a href="buy.html">BUY NOW</a></button>
+                        <button id="go-back-btn">Go Back</button>
+                  </div>
+                  
+            </div>
+      
+           
+      
+            <div class="copywrap">
+                  <div class="copyright"><a href="buy.html"></a>
+                        
+                  </div>
+            </div>
+           
+            
+                 
+            <div class="media">
+                  <ul>
+                        <li><ion-icon name="logo-facebook"></ion-icon></li>
+                        <li><ion-icon name="logo-instagram"></ion-icon></li>
+                        <li><ion-icon name="logo-youtube"></ion-icon></li>
+                  </ul>
+            </div>
+      </div>
+      <script>
+            // Event listener for "Go Back" button
+            document.getElementById('go-back-btn').addEventListener('click', function() {
+                // Skipping animations by hiding any loading screens
+                document.querySelector('.loading-screen').style.display = 'none';  // Hide loading screen
+                document.querySelector('.loader').style.display = 'none';  // Hide loader
+        
+                // Go back to the previous page
+                window.history.back();
+            });
+        </script>
+        
+     
+
+      <!-- Main Js file-->
+      <script src="js1/script.js"></script>
+      <script>
+            document.getElementById('go-back-btn').addEventListener('click', function() {
+                  // Skipping animations
+                  document.querySelector('.loading-screen').style.display = 'none';  // Hides the loading screen
+                  document.querySelector('.loader').style.display = 'none';  // Hides the loader
+                  window.history.back();  // Goes back to the previous page
+            });
+      </script>
+</body>
+</html>
